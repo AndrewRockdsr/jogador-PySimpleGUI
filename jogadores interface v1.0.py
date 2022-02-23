@@ -56,11 +56,10 @@ while True:
         janela.extend_layout(janela['container'], [[sg.Text(f'Gols {c}ª partida'), sg.Input(key='gol')]])
         if c > partidas:
             break
-
+            
+jogador['media'] = sum(jogador['gols']) / jogador['pts']
 jogador['gols'] = lista.copy()
 lista.clear()
 janela.close()
 janela2 = Dados()
 janela2.read()
-jogador['media'] = sum(jogador['gols']) / jogador['pts']
-print(jogador)
