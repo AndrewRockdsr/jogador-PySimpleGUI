@@ -14,7 +14,7 @@ def TelaDados():
         [sg.Button('Enviar')]
     ]
     
-    return sg.Window('Todo List', layout=layout, finalize=True)
+    return sg.Window('Jogador', layout=layout, finalize=True)
 
 
 def Dados():
