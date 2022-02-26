@@ -120,8 +120,8 @@ while True:
         indice1 = 0
         indice = 0
         JanelaVerifica.close()
+        JanelaDadosGerais = DadosGerais()
         while True:
-            JanelaDadosGerais = DadosGerais()
             EventDadosGerais, valueDadosGerais = JanelaDadosGerais.read()
             if EventDadosGerais == sg.WINDOW_CLOSED or EventDadosGerais == 'Voltar':
                 JanelaDadosGerais.close()
