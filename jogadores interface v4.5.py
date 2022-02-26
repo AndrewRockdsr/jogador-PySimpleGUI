@@ -60,10 +60,6 @@ jogador = {
 
 jogadores = []
 
-c = 1
-c1 = 0
-
-
 while True:
     c = 1
     c1 = 0
